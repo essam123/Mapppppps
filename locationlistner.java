@@ -30,11 +30,11 @@ public class locationlistner implements LocationListener {
 
     @Override
     public void onProviderEnabled(String s) {
-        Toast.makeText(context,"Gps Enabled",Toast.LENGTH_LONG).show();
+        Toast.makeText(context,"Gps   Enabled...!",Toast.LENGTH_LONG).show();
     }
 
     @Override
     public void onProviderDisabled(String s) {
-        Toast.makeText(context,"Gps Disabled",Toast.LENGTH_LONG).show();
+        Toast.makeText(context,"Gps Disabled...!",Toast.LENGTH_LONG).show();
     }
 }
